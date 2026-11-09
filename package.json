@@ -16,10 +16,13 @@
     }
   },
   "bin": {
-    "pepkio-confluency-split-passage-planner": "./dist/cli.js"
+    "pepkio-confluency-split-passage-planner": "dist/cli.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "README_NPM.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
