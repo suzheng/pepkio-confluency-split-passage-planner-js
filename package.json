@@ -1,7 +1,8 @@
 {
   "name": "pepkio-confluency-split-passage-planner",
   "version": "0.1.0",
-  "description": "Call the Pepkio Confluency & Split/Passage Planner REST API from Node.js with typed ESM imports, cell culture passaging calculations, and a CLI.",
+  "description": "Calculate cell culture split ratios, seeding densities, harvest yields, and growth timelines from Node.js and TypeScript via the Pepkio REST API.",
+  "readme": "README_NPM.md",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -18,9 +19,7 @@
     "pepkio-confluency-split-passage-planner": "./dist/cli.js"
   },
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
   "scripts": {
     "build": "tsup",
@@ -30,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suzheng/pepkio-confluency-split-passage-planner-js.git"
+    "url": "git+https://github.com/pepkio/pepkio-confluency-split-passage-planner-js.git"
   },
   "bugs": {
-    "url": "https://github.com/suzheng/pepkio-confluency-split-passage-planner-js/issues"
+    "url": "https://github.com/pepkio/pepkio-confluency-split-passage-planner-js/issues"
   },
   "homepage": "https://www.pepkio.com/tools/confluency-split-passage-planner",
   "keywords": [
@@ -46,6 +45,8 @@
     "doubling-time",
     "adherent",
     "suspension",
+    "cell-seeding",
+    "vessel-surface-area",
     "pepkio",
     "laboratory-tools",
     "life-sciences",
